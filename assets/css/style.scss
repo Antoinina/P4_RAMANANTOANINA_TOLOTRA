@@ -205,3 +205,22 @@ ul{
         }
     }
 }
+
+/*=========Map section========*/
+.localisation{
+    img{
+        width: 30%;
+        margin-bottom: 2rem;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    p{
+        margin-bottom: 3rem;
+        a{
+            &:hover{
+                text-decoration: underline!important;
+            }
+        }
+    }
+}

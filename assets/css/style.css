@@ -233,4 +233,22 @@ ul {
   width: 30%;
   margin-top: 2rem;
 }
+
+/*=========Map section========*/
+.localisation img {
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.localisation img:hover {
+  opacity: 0.8;
+}
+
+.localisation p {
+  margin-bottom: 3rem;
+}
+
+.localisation p a:hover {
+  text-decoration: underline !important;
+}
 /*# sourceMappingURL=style.css.map */
