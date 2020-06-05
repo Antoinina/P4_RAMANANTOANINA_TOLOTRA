@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/*=========Variables========*/
+/*======Placeholders========*/
+.header-banner, .paraph-banner, .paraph-banner .paraph-banner__block, .project-banner, .contact-banner .contact-banner__form {
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.header-banner, .paraph-banner {
+  background-attachment: fixed;
+}
+
+/*============Constant block========*/
+html {
+  scroll-behavior: smooth;
+  /*Enable scmooth scrolling*/
+}
+
+body {
+  padding: 100px 0 0 0 !important;
+  margin: 0;
+}
+
+body header {
+  height: 93.6px;
+  margin: 0 !important;
+}
+
+body .bg-white {
+  background-color: transparent !important;
+  -webkit-transition: 350ms ease;
+  transition: 350ms ease;
+}
+
+body .bg-white.scrolled {
+  background-color: #F3976C !important;
+}
+
+body footer {
+  background-color: #F3976C;
+}
+
+body footer p {
+  color: white;
+  padding: 1rem 0;
+}
+
+body footer nav {
+  padding-bottom: 1rem;
+}
+
+body footer nav .fa {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+body footer nav .fa:hover {
+  color: white;
+}
+
+a {
+  color: black !important;
+  padding: 5px 12px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*=========Specific block==========*/
+.btn-contact {
+  padding: 12px 28px;
+  background-color: #F3976C;
+  color: black !important;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.btn-contact:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+.color-title {
+  color: #F3976C;
+}
+
+.navlink:hover {
+  background-color: #F3976C;
+}
+
+.navlink.scrolled:hover {
+  background-color: white !important;
+}
+
+.navbar-expand-lg {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+/*=======First banner=====*/
+.header-banner {
+  background-image: url(../img/texture-paper.png), url(../img/banner.jpg);
+  height: 439px;
+}
+
+.header-banner img {
+  width: 100px;
+  height: auto;
+}
+
+.header-banner h1 {
+  margin: 32px 0 0 10px;
+}
+
+.header-banner div {
+  margin: 44px 0 0 0;
+}
+
+/*============Presentation banner==========*/
+.presentation-banner {
+  margin: 5rem 0;
+}
+
+.presentation-banner h2, .presentation-banner h5, .presentation-banner .quote {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.presentation-banner h2 {
+  margin-bottom: 2rem;
+}
+
+.presentation-banner h5 {
+  margin: 0 7rem;
+}
+
+.presentation-banner .col p {
+  font-size: 11px;
+}
+
+.presentation-banner .col h3 {
+  margin: 1rem 0;
+}
+
+.presentation-banner .col div {
+  font-size: 4rem;
+  color: #364577;
+}
+
+.presentation-banner .row {
+  margin-bottom: 7rem;
+}
+
+/*=======Paragraph Banner========*/
+.paraph-banner {
+  background-image: url(../img/presentation.bmp);
+  height: 549px;
+}
+
+.paraph-banner .paraph-banner__block {
+  background-image: url(../img/texture-paper.png);
+  height: 400px;
+}
+
+.paraph-banner .paraph-banner__block p {
+  padding: 0 5rem;
+  margin-top: 2rem;
+}
+
+.paraph-banner .paraph-banner__block p:nth-child(2) {
+  font-size: 13px;
+  color: white;
+}
+
+.paraph-banner .paraph-banner__block div {
+  margin: 44px 0 0 0;
+}
+
+/*===========Réalisation Banner=========*/
+.rea-banner {
+  padding: 10rem 0;
+  background-image: url(../img/lines-h2-bg.png);
+  background-repeat: repeat;
+}
+
+.rea-banner h2 {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 15rem 5rem 15rem;
+}
+
+.rea-banner h3 {
+  margin: 1.5rem 0;
+  font-size: 16px;
+}
+
+.rea-banner p {
+  font-size: 11px;
+}
+
+.rea-banner .row:nth-child(2) {
+  margin-bottom: 3rem;
+}
+
+/*========Last Banner=========*/
+.project-banner {
+  background-image: url(../img/texture-paper.png), url(../img/banner.jpg);
+  height: 365px;
+}
+
+.project-banner div {
+  margin: 44px 0 0 0;
+}
+
+/*==========Contact Banner===========*/
+.contact-banner {
+  background-color: white;
+  padding: 5rem 0;
+}
+
+.contact-banner .contact-banner__form {
+  padding: 6rem 0;
+  background-image: url(../img/dots-bg.png), url(../img/texture-paper.png);
+  background-color: #F3976C;
+}
+
+.contact-banner .contact-banner__form form button {
+  width: 30%;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
