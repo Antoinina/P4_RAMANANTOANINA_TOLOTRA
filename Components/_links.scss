@@ -1,0 +1,31 @@
+/*=========Specific block==========*/
+.btn-contact{
+    padding: 12px 28px;
+    background-color: $primary-color;
+    color:black!important;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size:20px;
+    &:hover{
+        opacity:0.9;
+        color:$secondary-color;
+    }
+}
+.color-title{
+    color:$primary-color;
+}
+.navlink{
+    &:hover{
+        background-color: $primary-color;
+    }
+}
+.navlink.scrolled{
+    &:hover{
+        background-color: $secondary-color!important;
+    }
+}
+.navbar-expand-lg{
+    button{
+        background-color: $primary-color;
+    }
+}

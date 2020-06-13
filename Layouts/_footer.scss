@@ -1,0 +1,20 @@
+/*========Social réseau=======*/
+.social-icon{
+    .fa{
+        color: rgba(255, 255, 255, .6);
+        &:hover{
+            color:$secondary-color;
+        }
+    }
+}
+.partners{
+    p{
+        color:black;
+        margin-bottom:0;
+        padding:0;
+    }
+    a{
+       font-size:13px; 
+       font-style: italic;
+    }
+}

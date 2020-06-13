@@ -71,6 +71,70 @@ ul {
   padding-left: 0;
 }
 
+/*========Social réseau=======*/
+.social-icon .fa {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social-icon .fa:hover {
+  color: white;
+}
+
+.partners p {
+  color: black;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.partners a {
+  font-size: 13px;
+  font-style: italic;
+}
+
+/*===========Media queries========*/
+@media (max-width: 576px) {
+  header a {
+    width: 80% !important;
+  }
+  .what-carousel {
+    height: 700px;
+    margin-bottom: 0;
+  }
+  .what-carousel .carousel-item h3 {
+    font-size: 18px !important;
+  }
+  .what-carousel .carousel-item p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-control {
+    width: 90% !important;
+  }
+  #what {
+    display: none;
+  }
+}
+
+@media (max-width: 1023.9px) {
+  #menuDesktop {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #menuMobile {
+    display: none;
+  }
+}
+
+@media (min-width: 768.1px) {
+  .what-carousel {
+    display: none;
+  }
+}
+
 /*=========Specific block==========*/
 .btn-contact {
   padding: 12px 28px;
@@ -253,26 +317,6 @@ ul {
   text-decoration: underline !important;
 }
 
-/*========Social réseau=======*/
-.social-icon .fa {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.social-icon .fa:hover {
-  color: white;
-}
-
-.partners p {
-  color: black;
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.partners a {
-  font-size: 13px;
-  font-style: italic;
-}
-
 /*=======Carousel========*/
 .what-carousel {
   margin: 3rem 0;
@@ -388,49 +432,5 @@ ul {
 #menuMobile input:checked ~ ul {
   -webkit-transform: none;
           transform: none;
-}
-
-/*===========Media queries========*/
-@media (max-width: 576px) {
-  header a {
-    width: 80% !important;
-  }
-  .what-carousel {
-    height: 700px;
-    margin-bottom: 0;
-  }
-  .what-carousel .carousel-item h3 {
-    font-size: 18px !important;
-  }
-  .what-carousel .carousel-item p {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 768px) {
-  .form-control {
-    width: 90% !important;
-  }
-  #what {
-    display: none;
-  }
-}
-
-@media (max-width: 1023.9px) {
-  #menuDesktop {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  #menuMobile {
-    display: none;
-  }
-}
-
-@media (min-width: 768.1px) {
-  .what-carousel {
-    display: none;
-  }
 }
 /*# sourceMappingURL=style.css.map */

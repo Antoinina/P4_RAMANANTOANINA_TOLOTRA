@@ -1,0 +1,21 @@
+/*=======Paragraph Banner========*/
+.paraph-banner{
+    background-image: url(../img/presentation.bmp);
+    @extend %image-background--fixed;
+    height:549px;
+    .paraph-banner__block{
+        background-image: url(../img/texture-paper.png);
+        @extend %image-background;
+        height:500px;
+        .text{
+            margin-top:10%;
+           margin-bottom: 2rem;
+        }
+        p{
+            &:nth-child(2){
+                font-size: 13px;
+                color: $secondary-color;
+            }
+         }
+    }
+}

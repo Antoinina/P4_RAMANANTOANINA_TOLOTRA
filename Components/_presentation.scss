@@ -1,0 +1,28 @@
+/*============Presentation banner==========*/
+.presentation-banner{
+    margin:5rem 0;
+    h2, h5, .quote{
+        color: rgba(0, 0, 0, .5);      
+    }
+    h2{
+        margin-bottom: 2rem;;
+    }
+    h5{
+        margin:0 7rem;
+    }
+    .col{
+        p{
+            font-size:11px;
+        }
+        h3{
+            margin:1rem 0;
+        }
+        div{
+            font-size:4rem;
+            color:#364577;
+        }
+    }
+    .row{
+        margin-bottom:7rem;
+    }
+}

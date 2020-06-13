@@ -1,0 +1,9 @@
+/*======Placeholders========*/
+%image-background{
+    background-repeat: repeat;
+    background-position: center;
+}
+%image-background--fixed{
+    @extend %image-background;
+    background-attachment: fixed;
+}

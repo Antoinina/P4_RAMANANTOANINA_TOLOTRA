@@ -1,0 +1,43 @@
+/*==========Contact Banner===========*/
+.contact-banner{
+    background-color: $secondary-color;
+    padding:5rem 0;
+
+    .contact-banner__form{
+        padding:6rem 0;
+        background-image: url(../img/dots-bg.png), url(../img/texture-paper.png);
+        @extend %image-background;
+        background-color: $primary-color;
+        form{
+            width:100%;
+            margin-left: 0;
+            margin-right: 0;
+            .form-arrea{
+                text-align:left!important;
+            }
+            button{
+                width:30%;
+                margin-top:2rem;
+                margin-bottom:5rem;
+            }
+        }
+    }
+}
+
+/*=========Map section========*/
+.localisation{
+    img{
+        width: 50%;
+        margin-bottom: 2rem;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    p{
+        a{
+            &:hover{
+                text-decoration: underline!important;
+            }
+        }
+    }
+}
