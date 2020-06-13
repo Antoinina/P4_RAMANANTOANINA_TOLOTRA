@@ -57,14 +57,6 @@ body footer nav {
   padding-bottom: 1rem;
 }
 
-body footer nav .fa {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-body footer nav .fa:hover {
-  color: white;
-}
-
 a {
   color: black !important;
   padding: 5px 12px;
@@ -262,12 +254,12 @@ ul {
 }
 
 /*========Social réseau=======*/
-.social-icon {
-  margin-right: 2rem;
+.social-icon .fa {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.partners {
-  margin-left: 2rem;
+.social-icon .fa:hover {
+  color: white;
 }
 
 .partners p {
@@ -279,6 +271,20 @@ ul {
 .partners a {
   font-size: 13px;
   font-style: italic;
+}
+
+/*=======Carousel========*/
+.what-carousel {
+  margin: 3rem 0;
+  height: 930px;
+}
+
+.what-carousel #what-carousel img {
+  margin: 1rem auto;
+}
+
+.what-carousel #what-carousel .text-carousel {
+  margin-bottom: 5rem;
 }
 
 /*========Navbar Hambureger=========*/
@@ -389,11 +395,24 @@ ul {
   header a {
     width: 80% !important;
   }
+  .what-carousel {
+    height: 700px;
+    margin-bottom: 0;
+  }
+  .what-carousel .carousel-item h3 {
+    font-size: 18px !important;
+  }
+  .what-carousel .carousel-item p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 768px) {
   .form-control {
     width: 90% !important;
+  }
+  #what {
+    display: none;
   }
 }
 
@@ -405,6 +424,12 @@ ul {
 
 @media (min-width: 992px) {
   #menuMobile {
+    display: none;
+  }
+}
+
+@media (min-width: 768.1px) {
+  .what-carousel {
     display: none;
   }
 }
