@@ -275,7 +275,7 @@ ul {
 /*===========Réalisation Banner=========*/
 .rea-banner {
   padding: 10rem 0;
-  background-image: url(../img/lines-h2-bg.png);
+  background-image: url(../img/lines_h2_bg.jpg);
   background-repeat: repeat;
 }
 
@@ -315,7 +315,7 @@ ul {
 
 .contact-banner .contact-banner__form {
   padding: 6rem 0;
-  background-image: url(../img/dots-bg.png), url(../img/texture-paper.png);
+  background-image: url(../img/texture-paper.png);
   background-color: #F3976C;
 }
 

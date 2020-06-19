@@ -5,7 +5,7 @@
 
     .contact-banner__form{
         padding:6rem 0;
-        background-image: url(../img/dots-bg.png), url(../img/texture-paper.png);
+        background-image:url(../img/texture-paper.png);
         @extend %image-background;
         background-color: $primary-color;
         form{
