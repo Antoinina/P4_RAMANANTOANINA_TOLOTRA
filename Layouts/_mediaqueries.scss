@@ -7,9 +7,15 @@
         }
     }
     .what-carousel{
-        height:700px!important;
+        height:400px!important;
         margin-bottom:0;
+        h2{
+            font-size: 18px!important;
+        }
         .carousel-item{
+            .text-carousel{
+                margin:0 3rem;
+            }
             h3{
                 font-size:18px!important;
             }
@@ -18,7 +24,36 @@
             }
         }
     }
-    
+    .quote{
+        font-size: medium;
+        color: black!important;
+        opacity: 0.7;
+    }
+    .quote-container{
+        margin-top: -50px!important;
+    }
+    .paraph-banner, .paraph-banner__block{
+        height:400px!important;
+        .first-pg{
+            font-size: 18px!important;
+        }
+    }
+    .project-banner{
+        height: 200px!important;
+        p{
+            font-size: 20px!important;
+        }
+    }
+    .localisation{
+        p{
+            font-size: 15px!important;
+        }
+    }   
+}
+@media (min-width:576px) and (max-width:768px){
+    .what-carousel{
+        height: 500px!important;
+    }
 }
 
 @media (max-width:768px){

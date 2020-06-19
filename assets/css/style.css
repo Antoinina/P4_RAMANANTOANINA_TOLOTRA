@@ -97,14 +97,49 @@ ul {
     width: 80% !important;
   }
   .what-carousel {
-    height: 700px !important;
+    height: 400px !important;
     margin-bottom: 0;
+  }
+  .what-carousel h2 {
+    font-size: 18px !important;
+  }
+  .what-carousel .carousel-item .text-carousel {
+    margin: 0 3rem;
   }
   .what-carousel .carousel-item h3 {
     font-size: 18px !important;
   }
   .what-carousel .carousel-item p {
     font-size: 13px;
+  }
+  .quote {
+    font-size: medium;
+    color: black !important;
+    opacity: 0.7;
+  }
+  .quote-container {
+    margin-top: -50px !important;
+  }
+  .paraph-banner, .paraph-banner__block {
+    height: 400px !important;
+  }
+  .paraph-banner .first-pg, .paraph-banner__block .first-pg {
+    font-size: 18px !important;
+  }
+  .project-banner {
+    height: 200px !important;
+  }
+  .project-banner p {
+    font-size: 20px !important;
+  }
+  .localisation p {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .what-carousel {
+    height: 500px !important;
   }
 }
 
@@ -202,21 +237,18 @@ ul {
   margin: 0 7rem;
 }
 
-.presentation-banner .col p {
-  font-size: 11px;
-}
-
-.presentation-banner .col h3 {
-  margin: 1rem 0;
-}
-
-.presentation-banner .col div {
-  font-size: 4rem;
-  color: #364577;
-}
-
 .presentation-banner .row {
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
+}
+
+.presentation-banner .col-lg-4 {
+  margin-bottom: 1rem;
+}
+
+.presentation-banner .col-lg-4 img {
+  width: 35%;
+  height: 78.11px;
+  margin-bottom: 1rem;
 }
 
 /*=======Paragraph Banner========*/
