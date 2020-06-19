@@ -7,14 +7,14 @@
         }
     }
 }
-.partners{
-    p{
-        color:black;
-        margin-bottom:0;
-        padding:0;
+
+footer{
+    nav{
+        padding-top: 1rem;
     }
-    a{
-       font-size:13px; 
-       font-style: italic;
+    .footer-link{
+        &:hover{
+            background-color: white;
+        }
     }
 }
