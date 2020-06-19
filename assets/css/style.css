@@ -132,7 +132,10 @@ footer .footer-link:hover {
     height: 400px !important;
   }
   .paraph-banner .first-pg, .paraph-banner__block .first-pg {
-    font-size: 18px !important;
+    font-size: 16px !important;
+  }
+  .paraph-banner .h5, .paraph-banner__block .h5 {
+    font-size: 14px !important;
   }
   .project-banner {
     height: 200px !important;
@@ -142,6 +145,9 @@ footer .footer-link:hover {
   }
   .localisation p {
     font-size: 15px !important;
+  }
+  h1 {
+    font-size: 50px !important;
   }
 }
 
@@ -155,14 +161,24 @@ footer .footer-link:hover {
   .form-control {
     width: 90% !important;
   }
-  #what {
-    display: none;
+  .what {
+    display: none !important;
   }
 }
 
 @media (max-width: 1023.9px) {
   #menuDesktop {
     display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .paraph-banner h4 {
+    font-size: 23px !important;
+  }
+  .paraph-banner p {
+    font-size: 17px !important;
+    font-weight: 400;
   }
 }
 
@@ -220,10 +236,6 @@ footer .footer-link:hover {
   height: auto;
 }
 
-.header-banner h1 {
-  margin: 32px 0 0 10px;
-}
-
 .header-banner div {
   margin: 44px 0 0 0;
 }
@@ -276,7 +288,6 @@ footer .footer-link:hover {
 }
 
 .paraph-banner .paraph-banner__block p:nth-child(2) {
-  font-size: 13px;
   color: white;
 }
 
@@ -294,11 +305,6 @@ footer .footer-link:hover {
 
 .rea-banner h3 {
   margin: 1.5rem 0;
-  font-size: 16px;
-}
-
-.rea-banner p {
-  font-size: 11px;
 }
 
 .rea-banner .row:nth-child(2) {

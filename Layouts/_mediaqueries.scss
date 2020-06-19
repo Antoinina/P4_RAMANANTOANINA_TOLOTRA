@@ -1,5 +1,4 @@
 /*===========Media queries========*/
-
 @media (max-width:576px){
     header{
         a{
@@ -35,7 +34,10 @@
     .paraph-banner, .paraph-banner__block{
         height:400px!important;
         .first-pg{
-            font-size: 18px!important;
+            font-size: 16px!important;
+        }
+        .h5{
+            font-size: 14px!important;
         }
     }
     .project-banner{
@@ -48,7 +50,10 @@
         p{
             font-size: 15px!important;
         }
-    }   
+    }
+    h1{
+        font-size: 50px!important;
+    } 
 }
 @media (min-width:576px) and (max-width:768px){
     .what-carousel{
@@ -60,13 +65,24 @@
     .form-control{
         width:90%!important;
     }
-    #what{
-        display:none;
+    .what{
+        display:none!important;
     }
 }
 @media (max-width:1023.9px){
     #menuDesktop{
         display: none;
+    }
+}
+@media (max-width:1024px){
+    .paraph-banner{
+        h4{
+            font-size: 23px!important;
+        }
+        p{
+            font-size: 17px!important;
+            font-weight: 400;
+        }
     }
 }
 @media (min-width:992px){
