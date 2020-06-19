@@ -204,7 +204,7 @@
                         </div>
                     </div>
                     <div class="carousel-item text-center">
-                        <img class="d-block w-100" src="assets/img/3.bmp" alt="Photo d'un journal local">
+                        <img class="d-block w-100" src="assets/img/3.jpeg" alt="Photo d'un journal local">
                         <div class="text-carousel">
                             <h3 class="text-uppercase font-weight-bold">Création d'un site internet pour un voyageur
                             </h3>
@@ -213,7 +213,7 @@
                         </div>
                     </div>
                     <div class="carousel-item text-center">
-                        <img class="d-block w-100" src="assets/img/4.bmp" alt="Photo d'une photographe">
+                        <img class="d-block w-100" src="assets/img/4.jpeg" alt="Photo d'une photographe">
                         <div class="text-carousel">
                             <h3 class="text-uppercase font-weight-bold">Conception d'un site pour une agence de mariage
                             </h3>
@@ -334,38 +334,16 @@
     <!-- Bootstrap CDN Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous" defer></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous" defer></script>
 
     <!-- Manage the form -->
-    <script>
-        /*Permet de gérer l'envoi du formulaire*/
-        (function () {
-            'use strict';
-            window.addEventListener('load', function () {
-                let forms = document.getElementsByClassName('needs-validation');
-                let validation = Array.prototype.filter.call(forms, function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
-    </script>
+    <script src="js/form.js" defer></script>
 
     <!-- Navbar change color -->
-    <script>
-        $(window).scroll(function () {
-            $('header').toggleClass('scrolled', $(this).scrollTop() > 50);
-            $('li').toggleClass('scrolled', $(this).scrollTop() > 50);
-        });
-    </script>
+    <script src="js/navbar.js" defer></script>
 </body>
 
 </html>

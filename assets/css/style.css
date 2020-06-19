@@ -97,7 +97,7 @@ ul {
     width: 80% !important;
   }
   .what-carousel {
-    height: 700px;
+    height: 700px !important;
     margin-bottom: 0;
   }
   .what-carousel .carousel-item h3 {
