@@ -203,7 +203,7 @@ ul {
 
 /*=======First banner=====*/
 .header-banner {
-  background-image: url(../img/texture-paper.png), url(../img/banner.jpg);
+  background-image: url(../img/banner.jpg);
   height: 439px;
 }
 
@@ -299,7 +299,7 @@ ul {
 
 /*========Last Banner=========*/
 .project-banner {
-  background-image: url(../img/texture-paper.png), url(../img/banner.jpg);
+  background-image: url(../img/banner.jpg);
   height: 365px;
 }
 

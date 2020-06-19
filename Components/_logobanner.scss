@@ -1,6 +1,6 @@
 /*=======First banner=====*/
 .header-banner{
-    background-image:url(../img/texture-paper.png), url(../img/banner.jpg);
+    background-image:url(../img/banner.jpg);
     @extend %image-background--fixed;
     height: 439px;
     img{
