@@ -24,6 +24,11 @@ body{
                 
             }
         }
+        #menuMobile{
+            label{
+                display:none!important;
+            }
+        }
     }
     footer{
         background-color: $primary-color;

@@ -44,6 +44,10 @@ body header a img {
   width: 80%;
 }
 
+body header #menuMobile label {
+  display: none !important;
+}
+
 body footer {
   background-color: #F3976C;
 }
